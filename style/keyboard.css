@@ -1,0 +1,61 @@
+.clearfix {
+    clear: both;
+}
+
+.key-d, .key-e, .key-c, .key-black, .key-last {
+    background-image: url(keys.png);
+    border: none !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 252px;
+    z-index: 1;
+    float: left;
+}
+
+.key-c {
+    margin-left:1px;
+    background-position: -53px 0;
+}
+
+.key-d {
+    background-position: 0 0;
+}
+
+.key-e {
+    background-position: -106px 0;
+}
+
+.key-black {
+    margin-left: -11px;
+    margin-right: -11px;
+    width: 23px;
+    height: 140px;
+    z-index: 2;
+    background-position: -342px 0;
+}
+
+.key-last {
+    background-position: -366px 0;
+}
+
+.key-c.pressed {
+    background-position: -212px 0;
+}
+
+.key-d.pressed {
+    background-position: -159px 0;
+}
+
+.key-e.pressed {
+    background-position: -265px 0;
+}
+
+.key-black.pressed {
+    background-position: -318px 0;
+}
+
+.key-last.pressed {
+    background-position: -419px 0;
+}
+

@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html>
+<head>
+    <script src="js/zepto.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/keyboard.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/keyboard.css">
+</head>
+
+<body>
+
+<div class="keyboard">
+
+</div>
+<script>
+$(document).ready(function () {
+    var k = new Keyset(undefined, 3, 'F', 32);
+    $('.keyboard').append(k.$keys);
+});
+</script>
+</body>
+</html>
