@@ -1,0 +1,8 @@
+Noob-music
+==========
+
+A first foray into studying tonal music. A javascript library to create
+piano keyboards that generate sounds in your browser.
+
+Currently works on Chrome on Linux. A portable wav-based version is in
+the works.
